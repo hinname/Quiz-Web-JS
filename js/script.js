@@ -162,6 +162,7 @@ function iniciar(){
     if(perguntasExcluidas.length > 0) {
       reiniciarVar()
       reiniciarTempo()
+      document.querySelector(".resultado h3").style.visibility = "hidden"
       for(pergunta of perguntasExcluidas) {
         perguntas.push(pergunta)
       }
