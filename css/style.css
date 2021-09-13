@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    background-color: #e2e2e2;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin: 10vh;
+    font-size: 18px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#start {
+    padding: 2vw 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(206, 79, 79);
+    color: #fff;
+    border-radius: 5%;
+}
+
+.quiz {
+    width: 45vw;
+    display: none;
+}
+
+.tempo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'roboto', sans-serif;
+    margin: 0 0 5vh;
+}
+
+.tempo h3 {
+    color: rgb(214, 63, 63);
+    margin: 0 1vw;
+}
+
+.pergunta {
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+}
+
+.respostas {
+    display: flex;
+    flex-direction: column;
+    margin: 6vh;
+}
+
+.respostas button {
+    padding: 1vw 1vw;
+    border-radius: 2%;
+    margin: 1vh 0;
+    background-color: rgb(206, 79, 79);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.resultado {
+    visibility: hidden;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 0 4vh;
+}
+
+.reiniciar {
+    visibility: hidden;
+}
