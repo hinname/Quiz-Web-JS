@@ -4,4 +4,4 @@
 It's general knowledge quiz using HTML, CSS and JS vanilla.
 
 ### How to access this project?
-
+https://hinname.github.io/Quiz-Web-JS/
